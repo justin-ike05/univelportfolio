@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    background-color: rgb(5, 71, 71);
+    background-color: rgb(0, 7, 12);
     font-family: 'Poppins',sans-serif;
 }
 main{
@@ -15,22 +15,60 @@ main{
     margin: 0;
     list-style: none;
 }
-img{
-    width: 50px;
-    height: 50px;
-}
-
 .nav{
-    color: black;
-    background-color: rgb(106, 218, 32);
+    color: white;
+    background-color: rgb(2, 38, 80);
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
 }
-nav{
+
+.navbar{
     display: flex;
     gap: 100px;
+    
+}
+.navbar a:link{
+    color: rgb(142, 156, 187);
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    
+}
+
+.hero-h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(3, 61, 100);
+    text-decoration-thickness: 5px;
+    
+}
+.my-avatar{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgb(7, 42, 117) 0px 0px 100px;
+    
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 10px;
+    font-size: 20px;
+}
+.hero-main{
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    gap: 5px;
 }
 
 
