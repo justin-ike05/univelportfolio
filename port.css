@@ -32,6 +32,16 @@ main{
 .navbar a:link{
     color: rgb(142, 156, 187);
 }
+.navbar a:active{
+    color: yellow;
+}
+.navbar a:visited{
+    color: green;
+}
+.navbar a:hover{
+    color: white;
+}
+
 .hero{
     display: flex;
     flex-direction: column;
